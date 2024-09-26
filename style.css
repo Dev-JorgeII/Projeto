@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(portfolio/Imagens/840843081452.jpg); 
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    /* background-position:;  */
+    
+  }
+  
+
+.logo{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    padding: 10px 10px;
+    background-color: rgb(221, 212, 212);
+    border: solid;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+
+    .logo1{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        padding: 10px 10px;
+        padding: 10px 10px;
+
+}
+
+.div_config{
+    border: groove;
+    border-color: rgb(42, 168, 218);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+header{
+background-color: #333;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 300px;
+}
+
+
+
+.footer {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 15px 0; /* Espaço no topo e no fundo */
+    font-size: 15px; /* Tamanho do texto */
+    position: fixed;
+    width: 100%; /* Ocupa toda a largura da página */
+    bottom: 0; /* Fixa no fundo da página */
+    }
+    
+.footer p {
+    margin: 0px 0;
+    }
